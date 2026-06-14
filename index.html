@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="light" data-accent="tie">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Words Tie — Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overlock:wght@400;700;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="dash.css">
+<link rel="stylesheet" href="client-portal.css">
+<meta name="ext-resource-dependency" content="assets/logo.png" data-resource-id="logoLight" />
+<meta name="ext-resource-dependency" content="assets/logo-white.png" data-resource-id="logoDark" />
+</head>
+<body>
+<div id="root"></div>
+
+<template id="__bundler_thumbnail" data-bg-color="#F4F6FB">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <rect width="1200" height="800" fill="#F4F6FB"/>
+    <rect x="0" y="0" width="300" height="800" fill="#FFFFFF"/>
+    <rect x="48" y="60" width="150" height="22" rx="6" fill="#1A6BFF"/>
+    <rect x="48" y="150" width="200" height="14" rx="7" fill="#E4E9F2"/>
+    <rect x="48" y="190" width="200" height="14" rx="7" fill="#E4E9F2"/>
+    <rect x="48" y="230" width="200" height="14" rx="7" fill="#1A6BFF" opacity="0.85"/>
+    <rect x="48" y="270" width="200" height="14" rx="7" fill="#E4E9F2"/>
+    <rect x="360" y="70" width="320" height="34" rx="8" fill="#15110A" opacity="0.85"/>
+    <rect x="360" y="170" width="240" height="240" rx="18" fill="#FFFFFF"/>
+    <rect x="640" y="170" width="240" height="240" rx="18" fill="#FFFFFF"/>
+    <rect x="920" y="170" width="240" height="240" rx="18" fill="#FFFFFF"/>
+    <circle cx="400" cy="220" r="22" fill="#1A6BFF"/>
+    <circle cx="680" cy="220" r="22" fill="#12936A"/>
+    <circle cx="960" cy="220" r="22" fill="#C77A12"/>
+    <rect x="360" y="450" width="800" height="290" rx="18" fill="#FFFFFF"/>
+  </svg>
+</template>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script src="invoice-logo.js"></script>
+<script src="invoice.js"></script>
+
+<script type="text/babel" src="store.jsx"></script>
+<script type="text/babel" src="ui.jsx"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="shell.jsx"></script>
+<script type="text/babel" src="cmdk.jsx"></script>
+<script type="text/babel" src="pages-home.jsx"></script>
+<script type="text/babel" src="pages-tasks.jsx"></script>
+<script type="text/babel" src="task-details-tabs.jsx"></script>
+<script type="text/babel" src="pages-people.jsx"></script>
+<script type="text/babel" src="pages-calculator.jsx"></script>
+<script type="text/babel" src="pages-finance.jsx"></script>
+<script type="text/babel" src="capital.jsx"></script>
+<script type="text/babel" src="system-reset.jsx"></script>
+<script type="text/babel" src="pages-operations.jsx"></script>
+<script type="text/babel" src="pages-requests.jsx"></script>
+<script type="text/babel" src="pages-system.jsx"></script>
+<script type="text/babel" src="client-portal.jsx"></script>
+<script type="text/babel" src="client-portal-pages.jsx"></script>
+<script type="text/babel" src="app.jsx"></script>
+</body>
+</html>
